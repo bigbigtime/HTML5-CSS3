@@ -1,0 +1,38 @@
+@charset "UTF-8";
+// 主色
+$color-main: #01aab6;
+// 辅色
+$color-second: #b45d01;
+// 文字主色
+$text-main: #010101;
+// 文字辅色
+$text-gray: #a0a0a0;
+// 主体宽度
+$container: 1200px;
+
+%clearfix {
+    height: 1%;
+    &:after{
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+// 定义浏览器内核属性
+@mixin webkit($type, $value){
+    -webkit-#{$type}: $value;
+    -moz-#{$type}: $value;
+    -ms-#{$type}: $value;
+    -o-#{$type}: $value;
+    #{$type}: $value;
+}
+
+@mixin ell($number){
+    display: -webkit-box;
+    -webkit-line-clamp: $number;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

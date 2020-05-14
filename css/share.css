@@ -1,0 +1,30 @@
+.bshare-custom {
+  position: absolute;
+  left: 15px;
+  top: 177px; }
+
+#bshare .txt {
+  display: block;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 12px;
+  color: #a0a0a0; }
+#bshare.bshare-custom a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  padding-left: 0 !important;
+  margin-bottom: 2px;
+  background-image: url(../images/icon-share-aside.png);
+  background-repeat: no-repeat;
+  background-color: #f1f1f1; }
+#bshare.bshare-custom.icon-medium-plus .bshare-sinaminiblog {
+  background-position: 0 0; }
+#bshare.bshare-custom.icon-medium-plus .bshare-weixin {
+  background-position: 0 -45px; }
+#bshare.bshare-custom.icon-medium-plus .bshare-qzone {
+  background-position: 0 -90px; }
+#bshare.bshare-custom.icon-medium-plus .bshare-qqmb {
+  background-position: 0 -135px; }
+#bshare.bshare-custom.icon-medium-plus a.bshare-more.more-style-addthis {
+  background-position: 0 -180px; }
